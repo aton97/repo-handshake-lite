@@ -57,7 +57,9 @@ For out-of-scope work:
 
 The Pro version adds the client/commercial operating layer in Notion while GitHub remains the source of truth for technical delivery.
 
-Pilot access is being validated with a small group of freelance developers. If you want to test it, open a **Pro pilot interest** issue in this repository.
+Pilot access is being validated with a small group of freelance developers.
+
+**[Apply to the Repo Handshake Pro pilot](https://github.com/aton97/repo-handshake-lite/issues/new?template=pro-pilot-interest.yml)**
 
 ## Safety
 
