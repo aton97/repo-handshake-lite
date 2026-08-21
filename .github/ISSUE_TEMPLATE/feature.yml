@@ -1,0 +1,25 @@
+name: Feature (in scope)
+about: Track work already included in the locked scope
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Client-visible outcome
+      description: What should the client be able to see or do when this is finished?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Use observable conditions, not "looks good".
+      placeholder: "- User can...\n- Page shows..."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Delivery environment
+      placeholder: staging / production / other
