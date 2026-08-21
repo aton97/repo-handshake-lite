@@ -1,0 +1,28 @@
+name: Bug
+about: Report a defect in delivered or in-scope work
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What is wrong?
+      description: Describe the observable problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / URL
+      placeholder: https://staging.example.com
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Steps, screenshot URL, or other non-secret evidence.
