@@ -1,0 +1,34 @@
+name: Change request (out of scope)
+about: Request work that is not in the locked scope
+title: "[Change Request] "
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested change
+      description: Describe the new or changed outcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Expected impact
+      options:
+        - Scope
+        - Timeline
+        - Price
+        - Combination
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision / quote notes
+      description: Leave blank until clarified or quoted. Work must not start before approval.
+  - type: checkboxes
+    id: approval
+    attributes:
+      label: Approval gate
+      options:
+        - label: I understand this work must be explicitly approved before implementation starts.
+          required: true
